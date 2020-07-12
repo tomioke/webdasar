@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Materi Pseudo-Class Selector</title>
+	<style type="text/css">
+		/*rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+		a:link {
+			color: red;
+		}
+
+		/* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+		a:visited {
+			color: pink;
+		}
+
+		/* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor */
+		a:hover {
+			color: pink;
+		}
+
+		/* rule akan diterapkan pada sebuah tautan ketika ditekan */
+		a:active {
+			color: gold;
+		}
+	</style>
+</head>
+<body>
+	<a href="https://www.google.com">Kunjungi Halaman Google</a>
+	<!-- Tidak hanya yang dicontohkan di atas, ada banyak sekali class semu yang menjadi standar pseudo-classes dalam CSS. Kita pun bisa melihat indeks standar yang ada pada pseudo-class pada tautan resmi Mozilla berikut: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes -->
+</body>
+</html>

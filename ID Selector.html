@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Materi ID Selector</title>
+	<style type="text/css">
+		/* Untuk menetapkan selector dengan menggunakan id, kita gunakan tanda octothorpe (#) atau lebih familiar disebut dengan hash. Dan  atribut ini digunakan untuk generic element seperti <div> dan <span>. Namun atribut id ini  harus unik dan digunakan pada satu elemen saja. */
+		#special { 
+			background-color: skyblue;
+		}
+		/* Yang harus kita perhatikan kembali adalah id ini bersifat unik. Jika kita ingin menerapkan sebuah rule pada banyak elemen, sebaiknya gunakan atribut class, bukan dengan id. */
+	</style>
+</head>
+<body>
+ 	<div id="special">
+ 		<p>Ini merupakan konten di dalam sebuah div yang diberi id special.</p>
+ 	</div>
+ 	<div id="special"> <!-- ini merupakan contoh yang salah dalam penerapan id -->
+ 		<p>Ini merupakan konten di dalam sebuah div biasa.</p>
+ 	</div>
+ 	<div id="special"> <!-- ini merupakan contoh yang salah dalam penerapan id -->
+ 		<p>Ini merupakan konten di dalam sebuah div biasa.</p>
+ 	</div>
+ 	<div>
+ 		<p>Ini merupakan konten di dalam sebuah div biasa.</p>
+ 	</div>
+</body>
+</html>
